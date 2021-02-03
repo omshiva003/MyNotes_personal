@@ -1,0 +1,306 @@
+* Org-Mode Dairy Shortcuts
+** AGENDA VIEW
+IN ORG MODE PROVIDE THE AGENDA VIEW TO MANGE AND VIEW TODO LIST & DEADLINES
+COMMAND : C-C[  : ENABLE AGENDA VIEW
+TO VIEW : 
+M-X ORG    - AGENDA  VIEW
+C-C A      – AGENDA
+C-C [      – ADD DOCUMENT TO THE LIST OF AGENDA FILES
+C-C ]      – REMOVE DOCUMENT FROM THE LIST OF AGENDA FILES
+C-C .      – ADD DATE
+C-U C-C .  <2021-01-26 Tue 11:12>– ADD TIME AND DATE
+C-x C-d     Calender is show and date is selected DEADLINE: <2018-08-22 Wed>
+C-G        – STOP DOING WHAT YOU ARE TRYING TO DO, ESCAPE
+
+
+IF SCREEN SPLIT THEN DO C-C 0
+
+** DATE AND TIME (NO TIME ZONE)
+C-C .          – ADD DATE<2018-08-07 Tue>
+S-<UP/DOWN>    - CHANGE + OR -   
+C-U C-C . – ADD TIME AND DATE
+** TODO TO MARK ITEM AS TODO : 
+   S + (Righ arrow/ left arrow )     toggle normal, TODO,DONE
+   C-c C-t                           toggle norma, TODO,DONE 
+
+** CREATE CHECK BOX [1/3] : OR U CAN USE % FOR PERCENTAGE         :CHECKBOX:
+  * [X] FLOWERS : TO TICK MARK THE ITEM C-C C-C  & TO UNTICK MARK SAME
+  * [ ] FRUITS
+  * [ ] PAY BILL
+* 
+* TODO To Learn 
+** SET TAGS FOR THE TASKS C-c C-c                                    :ECAMS:
+** BTech 1stYear 				       :Education:BTech:2008:
+** Grossery List 						       :Home:
+** Java Coching 					   :Education:Tution:
+In tags we can search in current exiting by pressing tab
+
+* TODO Aim for JOb  <2021-01-26 Tue 11:25>  
+I am impatient want to do all things but we know which is difficult.
+So what is my aim ? To get high paid job in faculty 
+I thing i am wasting my time in studying all ECE subject like SS,Communication....etc and writing notes(hard and soft)
+because there will be faculty present for them
+
+So i have to throughly prepared for Image Processing and AI for Interview then comes ECE subjects
+- Before Job Apply
+  * [X] Signal and System
+  * [ ] Communication
+  * [ ] Image Prcoessing
+- Apply Job 
+  * [X] Experiance Certificate
+  * [ ] Resume correction
+  * [ ] Apply
+  * [ ] mock interview
+- After Job application
+  * [X] *Aim* : For Faculty in Image Process,Neual Network
+  * [ ] Project in Image Processing
+  * [ ] Computer Vision
+  * [ ] Neural Network with py-code
+  * [ ] Projects Image Processing
+  * [ ] Projects Neural Network
+    
+* Convert org to  ipython vice versa  <2021-01-26 Tue 12:33> 
+For writing notes, and giving class and presentation we can write in org mode but for latex(mathematical equation) and 
+if you want to do presentation in remote laptop you can't expect emacs with all configuration is present 
+So ipython can be eaisly install and presented. 
+
+Pandoc : org <=> html <=> Jupyter
+It seems  [Pandoc][ https://pandoc.org/index.html] can do the job. It can read several structured markup languages and export to org mode and vice versa
+
+
+Export to org to Jupyter 
+https://kitchingroup.cheme.cmu.edu/blog/2017/01/21/Exporting-org-mode-to-Jupyter-notebooks/
+
+ convert ipython to html => (convert html to org )
+https://github.com/Lompik/html-to-org/blob/master/python/html_to_org.py
+
+* TODO Record MadeEasy [] (Quick Revision Course) <2021-01-26 Tue 14:54> 
+ * [X] Signal and System (6 hours)
+ * [X] Communication (8 hours)
+ * [X] Control System (6 hours)
+ * [X] Computer Organization (2hours)
+ * [X] Digital Circuit (5 hours)
+ * [X] Math(7 hours)
+ * [X] EMT (6 hours)
+ * [ ] Network(6hours)
+ * [ ] Electronic Device Circuit (8 hours)
+ * [ ] Analog Circuit (8 hours)
+ * [ ] Reasoning and Aptitude(5 hours)
+ * [ ] ##### Lossless Compression ####
+* Just Buy Notes for B.Tech instead of writing <2021-01-26 Tue 23:27> 
+I am a fool i just need to buy notes by made easy instead of writing whole notes by watching videos
+Why i am writing notes ? I understand in quick revision course there will be topics which are skipped why i am sorting and searching for missing topic and again watching and writing notes ?
+In interview they will not test you knowledge but you Teaching Skill +
+You will tell Image Processing,Computer Vision,Neural Network as area of intrest
+  
+* Download MadeEasy Notes <2021-01-27 Wed 10:26>
+I have talk to teja i have understand that madeeasy has 10% offer (Rs 5k) but will i able to attened online doing my job why ?
+I want to buy postal books 
+ - But will i study all books before interview ?
+ - Then buy book which are require for interview.
+ - If Madeeasy notes are available then i should directly go for it insted of buying books.
+Paid Notes:
+2999/-
+https://coachingnotes.in/product/ec-gate-psu-ies-topper-notes/
+
+
+Free Notes
+Notes are from 2014-2017 
+https://thegatehunt.com/made-easy-free-pdf-handwritten-notes-for-electronics-and-communication-engineering-gate-ies-psc-download-free-pdf-of-made-easy-class-notes-made-easy-latest-handwritten-notes-for-electronics-and/
+
+Links of all npetal ,mit, gate ..... 
+but pdf is not single but splited into may sigle files
+https://www.newtondesk.com/newton-desk-file-download/
+
+This is new updated syllabus 2020 including *Computer Organization* but asking to login 
+https://www.studynama.com/gate-ece-electronics-made-easy-pdf-notes/
+
+Here is also free link but and has *Computer Organization* but link is slow to download and note in CO is not neet
+https://www.gate2016.info/made-easy-class-notes-ec-engineering/
+
+
+Easy Engineering : How to Calculate Quickly 
+https://drive.google.com/file/d/1eWONsbiQA2OUz0K0Sm9BHbIp4s-DGrn_/view
+
+Notes is not in good condtion simillar to gate2016
+https://www.gatexplore.com/made-easy-class-notes-ec/
+
+
+* Org-blog <2021-01-28 Thu 00:31>
+How to write org-file and convert to blog
+https://orgmode.org/worg/org-blog-wiki.html
+There are different links but o-blog is looking good
+EWW : Emacs Web Wroser is a emacs inbuilt with less css and js
+try how 
+* Vedabase
+I have tried previously to download vedabase but fail but now i think i can make a data base  and create
+local server running vedabase.
+
+* OpenGl <2021-01-28 Thu 02:01>
+how to save a opengl file by ffmpeg linux cmd
+* Compress videos <2021-01-28 Thu 02:08>
+** in windows using handbreak <2021-01-28 Thu 12:26>
+** using ffmpeg: write python code call shell <2021-01-28 Thu 12:26>
+
+
+* Video Tutorial of Image Processing
+ [[https://www.youtube.com/c/ECAcademy/playlists][EC Academy ] ]
+ Consist of DIP ,DSP,D Communication , SS,
+
+ DigitalSreeni
+ Image processing with python
+ 
+ https://www.youtube.com/playlist?list=PLZsOBAyNTZwYx-7GylDo3LSYpSompzsqW
+
+ DigitalSreeni others Playlist :
+ https://www.youtube.com/channel/UC34rW-HtPJulxr5wp2Xa04w/playlists
+
+Playlist by student
+ https://www.youtube.com/watch?v=EF9Ah2Xu1OI&list=PLBvvSSU8TaFdT4_1TyBBp8YeuYBkKP0bF
+
+ Playlist by Pro but most of series has private video
+ https://www.youtube.com/watch?v=xUCsfKA8bi0&list=PLm_MSClsnwm9I2iviE0YKt6PZTyQCYc8j
+ 
+Playlist by iit kharagpur
+https://www.youtube.com/watch?v=DSGHkvQBMbs&list=PLuv3GM6-gsE08DuaC6pFUvFaDZ7EnWGX8
+Meaching learning with Python
+https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
+
+
+* Downlaod e-book for ece core sylllabus <2021-01-29 Fri 02:07>
+
+* Create you own configured Laptop,os,languages <2021-01-30 Sat 02:32>
+Today my laptop as struck in a vired way screen is on-off repetedly
+When i was compressing Madeeasy networks videos in kdenlive even without touching keyboard system is hanging
+Later after opening windows dual booth i can't write nfts partition from linux i had searched entire google tried different method but no results
+
+I don't like my dell Inspiron 15 keyboard layout, i wish i had lenovo type keyboard layout.
+So i want to customize my laptop with laptop i have my old lenovo laptop so want to give it to my father with some customize  but it will cost so i have wait untill my job
+
+If i have time i should learn rust and contribute in rust os, web-server ,with opengl i was looking in meetup but did not get any links
+
+* Don't plan just go head <2021-01-30 Sat 05:05>
+- I am planed schedule on
+  - how to create job-profile ,
+  - how many dates for revising btech subjects
+  - i have recorded video on madeeasy
+  - made soft and hard copy of notes
+  - later thing it is time waste and searched online notes
+  - went to ameerpet to printing (two-side print: Rs .8/page cost : No.pg/2 *(0.8) , four-sides: Rs 1/pg: Cost: No.pg/4 *(1)
+          
+Later i have decided to do meachine learing and IoT  because it is high paid job    
+Later i had downlaod notes on btech sub : DSP,AC,DC,DIP
+Now date 30th Jan  last date for MGIT faculty application
+So one thing i understood is i have wasted lot of time just apply directly and prepare as much as possible.
+When i was young i didnot understude  why sir use to do thing  without planing  now i understand  making a plan and excecuting is tedious tasks so go a head without planing
+
+* Learing Meachine Learing and  IoT course <2021-01-30 Sat 14:25>
+with IoT we can create a lot of devices and start new bussiness. Don't stick only to DIP.
+One thing you have to know *Don't put all you egg in one basket*
+So what wrong with Meachine Learing ? if you can earn money from it why should you not welcome it ?
+
+* Create you own backyard gaurage or Shop
+why do i have to buy drilling meachine,xerox, printing meachine, cub-borad, pc tables....etc
+rather if i have my own gaurage then i need not have to go to shops
+* Startup ideas : Freelances,Python coaching with project,Incubtion center  <2021-01-30 Sat 15:24>
+I was searching in meetup for Freelance i found in cheenai so i was looking for past-events then i found
+that they are doing coaching btech students with projects.
+Giving projects to students is one of biggest thing whihc is low cost completing new-innovtion or writing the code
+Later if they got job then Ok
+If not they can do projects with low-cost and we can provide pay-check,from-16,income tax as experiancs
+I can do project as rust,os,opengl,anantha dirtribution
+
+
+
+* Linux doesnot have Times New Rome fonts
+* iitk course and books need to read and visit
+** IITK Computer Graphics
+CS360 3-0-0-0-4
+Course Contents:
+Introduction to Picture Synthesis and Analysis.
+Conceptual Framework of anInteractive Graphical Simulation System,
+Graphics hardware. Basic RasterGraphics Algorithms.
+Introduction to Simple Raster,
+Graphics Package (SRGP),
+Graphics Entities.
+Geometric Transformations. Object hierarchy.
+Segmentation.Interaction Techniques,
+Geometric Modeling in 3D.
+Viewing in 3D.
+Concept of Synthetic Camera.
+Dialogue Design. Graphics User Interfaces.
+WindowingSystems Graphi cal Modeling of Discrete events.
+Simulation of Discrete EventDisplays.
+Animation Techniques.
+Basic Rules for Animation.
+Graphical Simulationof continuous motion.
+Role of Virtual Reality in Graphical Simulation.
+References/Text Books:INTRODUCTION TO COMPUTER GRAPHICS 
+
+** Communication
+Course Contents:Fourier transform theory for communication systems,
+Analog communication systems.
+Amplitude Modulation, Envelope Detection, Double Sideband (DSB), Single sideband (SSB) andVestigial Sideband (VSB) systems,
+BasebandPassband equivalence.
+Angle Modulation,Frequency Modulation,
+Phase Modulation, Spectrum of FM signals.
+Pulse Modulation,Quantization,
+Compression, Delta and DPCM Modulation.
+Probability, MAP detection, RandomProcesses, Strict and Wide Sense Stationarity Ergodicity, AWGN.
+
+Digital Communication systems,
+Optimality of Matched filter, BitError Rate (BER), Signal constellation theory, BPSK and QPSKmodulation. GSM/TDMA and IS95/CDMA cellular systems.
+Statistical Multiplexing and packetswitching, ALOHA, slotted ALOHA, Basics of queueing and trunking
+
+** Methematical Methods in Signal Procesing
+Course Contents:Generalized inverses, regularization of illposed problems.
+Eigen and singularvalue decompositions, generalized problems. Interpolation and approximationby least squares and minimax error criteria.
+Optimization techniques for linearand nonlinear problems. Applications in various areas of signal processing.
+
+** Digital Video Processing
+Course Contents:
+Representation of digital video including modeling of video image formation,
+spatiatemporal sampling over lattices,
+conversion of signals sampled on different lattices and sampling rate conversion of video signals.
+Twodimensional Motion Estimation:
+2D Motion vs Apparent Motion, occlusion/Aperture problems,
+2D Motion field Models, optical flow methods;
+blockbased methods, pelrecursive methods and Bayesian methods.
+Video filtering:
+Motion compensated filtering, including spatiatemporal spectrum, filtering along motion trajectories;
+Nois.e filtering, Video Restoration, including Modeling,
+Intraframe shift invariant I variant restoration, multiframe restoration;
+Standards conversion including practical Up/Down conversion Methods.
+Video compression: Basic concepts and techniques of video coding,
+lnterframe CompressionMethods, Video Compression Standards (MPEG2, MPEG4, H.264) Low bit rate Video Codecs,
+Embedded Video Codecs, Scalable Video coding.
+
+References/Text Books:1.
+"Image and Video Processing", A.I. Bovik, Elosovier Academic Press, 2005.
+"Digital Pictures", A.N. Netravali, B.G. Haskell, Plenum Press, 1997.
+"Digital Video Transcoding", H. Sun, X. Chen and T. Chiang, CRC Press 2005.
+"Digital Video Processing", A. Murat Tekalp, Prentice Hall Signal Processing Series, 1995
+"Wireless Video Communications", L. Hanzo, P.J. Cherriman, J. Streit, IEEE Series onDigital and Mobile Communication, 2001.
+
+* Idea of NAS and Private Cloud using Next Cloud <2021-02-01 Mon 09:53>
+As my system strucks i got idea of using my old lenovo laptop or pc
+i have repaird my pc my changeing smps 700+350
+I was ready to implement it dual booting but there is a bios error where i can't load any usb bootable pendrive i have tried to update the bios but there is till error shoing up
+So i was tring to install free nas in virtual boad but now pc is showing error *Pereparing Automatic Repair* now i can't load my pc and some time my laptop also struck
+So after all hardwork i didn't get laptop working and my pc working then how i am going to do my job ?
+Lets keep private cloud side and currently focus on preparing for interview image processing, cv , meaching learing
+
+Today i was doing survey on what can you do my meachine learing: restore image of cave-people, detect breast cancer .....
+I have to as ai can do all most every thing but i will still stick to image processing
+
+
+* Share files in local network 
+https://itectec.com/ubuntu/ubuntu-how-to-share-files-through-the-local-network/
+
+
+* List of Colleges that i have applied as facultiy <2021-02-03 Wen 17:39>
+
+ * [X] https://www.facultyplus.com/malla-reddy-engineering-college-for-women-secunderabad-wanted-professor-associate-professor-assistant-professor-2/  Secunderabad, Telangana
+
+ * [] https://www.facultyplus.com/assistant-professor-jobs-malla-reddy-college-of-engineering/
+
